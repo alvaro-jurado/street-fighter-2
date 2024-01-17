@@ -1,0 +1,74 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    font-family: "Press Start 2P", monospace;
+    text-transform: uppercase;
+}
+
+body,
+canvas {
+    background-color: black;
+}
+
+canvas {
+    width: 100%;
+    object-fit: contain;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    position: relative;
+}
+
+img {
+    display: none;
+}
+
+#end-game {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    top: 40%;
+    left: 46%;
+}
+
+#selection {
+    margin-left: -105px;
+}
+
+#wins {
+    color: rgb(192, 192, 192);
+    text-shadow: 2px 2px 0 rgb(192, 11, 11);
+    transform: translate(-50%, -50%);
+    margin-left: 85px;
+}
+
+#play-again {
+    color: rgb(147, 154, 255);
+    text-shadow: 2px 2px 0 rgb(47, 61, 255);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#title-screen {
+    color: rgb(147, 154, 255);
+    text-shadow: 2px 2px 0 rgb(47, 61, 255);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.load {
+    animation: load 800ms 500ms backwards;
+}
+
+@keyframes load {
+    0% {
+        filter: blur(2px) hue-rotate(-150deg);
+    }
+}

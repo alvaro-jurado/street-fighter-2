@@ -1,0 +1,11 @@
+- Animación caída (Hit en el aire)
+- Música (Not mine)
+- 1 vs IA (Not happening)
+- 1/2 vs Coche
+- Ampliar Moveset Personajes
+- Añadir personajes y stages
+- Seleccionar personaje y stage
+- Efectos de sonido
+- Arreglar control con mando
+- Movimiento de stage (Stage animada)
+- Puntuación
