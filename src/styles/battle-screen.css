@@ -11,8 +11,7 @@ body {
     text-transform: uppercase;
 }
 
-body,
-canvas {
+body, canvas {
     background-color: black;
 }
 
